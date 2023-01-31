@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to bottom, lightblue, pink, lightgray, pink, lightblue);
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-left: 50px;
+  padding-top: 20px;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background-color: blue;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.link{
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  text-decoration: none;
+}
+
+
+
+.contactbox{
+  height: 200px;
+  width: 360px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: calc((100vh - 200px)/2);
+  right: calc((100vw - 400px)/2);
+}
+
+.contact{
+  font-size: 25px;
+}
+
+.items{
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.homecontent{
+  position: relative;
+  top: 60px;
+}
+
+.studentitem{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.button{
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  position: relative;
+  left: 900px;
+  top: -90px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.button:hover{
+  background-color: tomato;
+  color: white;
+}
+
+.linktostudent{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  top: 200px;
+}
+
+.arrangeinputs{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+  justify-content: space-around;
+  position: relative;
+  top: 50px;
+}
+
+.input{
+  height: 60px;
+  width: 500px;
+  /* margin-top: 30px;
+  margin-left: 50px; */
+  font-size: 25px;
+  background: transparent;
+  border: gray 2px solid;
+  border-radius: 10px;
+}
+
+.btn{
+  height: 60px;
+  width: 150px;
+  background-color:transparent;
+  position: relative;
+  left: 300px;
+  top: 150px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: lightgreen;
+  color: white;
+}
+
+.btn2{
+  height: 60px;
+  width: 150px;
+  position: absolute;
+  top: 515px;
+  left: 30px;
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn2:hover{
+  background-color: tomato;
+  color: white;
+}
+
+table{
+  width: 95%;
+  height: 60px;
+}
+
+thead{
+  padding: 15px;
+}
+
